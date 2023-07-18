@@ -1,38 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "deadmau5-ears",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
+  "name": "Deadmau5 Ears",
+  "description": "Ears for all!",
+  "authors": ["AnAwesomGuy"],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "issues": "https://github.com/AnAwesomGuy/deadmau5-ears/issues",
+    "sources": "https://github.com/AnAwesomGuy/deadmau5-ears"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
+  "license": "Apache License, Version 2.0",
+  "icon": "assets/deadmau5-ears/icon.png",
+  "environment": "client",
+  "mixins": ["deadmau5-ears.mixins.json"],
   "depends": {
     "fabricloader": ">=0.14.6",
-    "fabric": "*",
-    "minecraft": "~1.18.2",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "minecraft": "*",
+    "java": ">=8"
   }
 }

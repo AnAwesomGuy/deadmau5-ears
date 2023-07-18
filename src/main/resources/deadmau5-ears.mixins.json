@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.anawesomguy.deadmau5_ears.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": ["Deadmau5FeatureRendererMixin"],
+  "injectors": {"defaultRequire": 1}
+}
